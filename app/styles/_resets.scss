@@ -1,0 +1,29 @@
+$c-primary: #96ca2d;
+$c-light: #b5e655;
+$c-secondary: #4bb5c1;
+$c-secondary-light: #7fc6bc;
+$c-white: #edf7f2;
+$c-pure-white: #fff;
+
+$m-gutter: 1rem;
+$m-max-width: 60rem;
+
+$font: 'Dosis', sans-serif;
+
+body {
+  margin: 0;
+  background-color: rgba($c-light, .3);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  padding: $m-gutter;
+}
