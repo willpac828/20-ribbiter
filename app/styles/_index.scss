@@ -1,0 +1,29 @@
+.container {
+  max-width: 60rem;
+  margin: auto;
+}
+
+.welcome-card {
+  text-align: center;
+}
+
+.welcome-card__header {
+  color: $c-black;
+  font-family: $font;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    margin: $m-gutter;
+    padding: ($m-gutter * 2);
+    border: 0;
+    background: $c-primary;
+    color: $c-white;
+    font-family: $font;
+    font-size: 3rem;
+    box-shadow: (0 1px 1px 0 #000);
+  }
+}
