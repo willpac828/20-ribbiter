@@ -24,6 +24,7 @@
     color: $c-white;
     font-family: $font;
     font-size: 3rem;
-    box-shadow: (0 1px 1px 0 #000);
+    box-shadow: (0 0 10px 0 #000);
+    cursor: pointer;
   }
 }

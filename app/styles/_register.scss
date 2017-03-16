@@ -1,0 +1,13 @@
+.form-card {
+
+  max-width: 30rem;
+  margin: auto;
+  background-color: $c-pure-white;
+  font-family: $font;
+
+  &__heading {
+    margin-top: 0;
+    background-color: $c-primary;
+    color: $c-white;
+  }
+}
