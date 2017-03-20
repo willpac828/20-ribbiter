@@ -5619,9 +5619,9 @@ redeyed@~0.5.0:
   dependencies:
     esprima-fb "~12001.1.0-dev-harmony-fb"
 
-redux-thunk-rest@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/redux-thunk-rest/-/redux-thunk-rest-0.3.0.tgz#1d64ecea8c659a9237d0a263ceeb427938aaa3fe"
+redux-thunk-rest@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/redux-thunk-rest/-/redux-thunk-rest-0.5.1.tgz#dbff8cba3743eb940e7746d147044242853aec3a"
   dependencies:
     i "^0.3.5"
     lodash.unionby "^4.8.0"

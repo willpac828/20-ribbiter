@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgba($c-light, .15);
+  background-color: rgba($c-light, .10);
 }
 
 ul {
@@ -13,5 +13,5 @@ img {
 }
 
 .section {
-  padding: $m-gutter;
+  padding: ($m-gutter * 2) $m-gutter;
 }

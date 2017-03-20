@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
+import userResource from './resources/user';
 
-
-export default combineReducers({
-
+const reducer = combineReducers({
+  users: userResource.reducer,
 });
+
+export default reducer;
