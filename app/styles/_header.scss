@@ -1,0 +1,17 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: ($m-gutter / 2) $m-gutter;
+  background-color: $c-primary;
+  color: $c-white;
+  font-family: $font, sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+
+  &__item {
+    margin: 0 $m-gutter;
+  }
+}

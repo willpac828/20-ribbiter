@@ -1,0 +1,59 @@
+.form-card {
+
+  max-width: 30rem;
+  margin: auto;
+  background-color: $c-pure-white;
+  font-family: $font;
+  box-shadow: (0 0 10px #000);
+
+  &__heading {
+    margin-top: 0;
+    padding: $m-gutter;
+    background-color: $c-primary;
+    color: $c-pure-white;
+
+  }
+
+  &__form {
+    padding: 0 ($m-gutter / 2) ($m-gutter / 2);
+  }
+}
+
+.label {
+
+  margin-top: ($m-gutter);
+}
+
+.input {
+  border: 0;
+  outline: 0;
+  font-size: 0.75rem;
+
+  &__underline {
+    margin: 0 0 ($m-gutter);
+    border-bottom: 4px solid $c-secondary;
+  }
+}
+
+.button-flex {
+  display: flex;
+  justify-content: space-between;
+
+  &__button {
+    padding: $m-gutter;
+    border: 0;
+    background: 0;
+
+  }
+
+}
+
+.left {
+  background-color: rgba($c-light, .10);
+  color: $c-secondary;
+}
+
+.right {
+  background-color: $c-primary;
+  color: $c-pure-white;
+}

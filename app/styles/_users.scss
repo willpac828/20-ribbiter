@@ -1,0 +1,41 @@
+.section__header {
+  margin: 0 $m-gutter;
+  border-bottom: 1px solid $c-secondary;
+  font-family: $font, sans-serif;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid__item {
+  flex-basis: calc(100% / 3 - 2rem);
+  margin: $m-gutter;
+}
+
+.user-card {
+  display: flex;
+  padding: $m-gutter;
+  background: $c-pure-white;
+  font-family: $font;
+  box-shadow: (0 0 10px 0 #000);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 ($m-gutter / 2);
+
+  &__name {
+    margin: 0;
+  }
+
+  &__username {
+    margin: 0;
+    color: $c-secondary;
+    text-decoration: underline;
+  }
+
+}

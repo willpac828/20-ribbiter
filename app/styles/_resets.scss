@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: rgba($c-light, .10);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  padding: ($m-gutter * 2) $m-gutter;
+}
